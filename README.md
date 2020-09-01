@@ -6,7 +6,7 @@
 Spring Boot를 통한 개발, Kafka와의 연동, DB는 MySQL과 MongoDB를 사용 예정입니다.
 
 
-Apply Due : 2020.09.18(Fri)
+Apply Due : 2020.09.18(Fri).  
 Project Due : 2020.09.17(Thu)
 
 ## Daily Check
