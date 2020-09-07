@@ -18,7 +18,7 @@ Day3. 2020.09.03 Spring Study Day3.
 Project Plan   
 [IIE2102_IIM_Term_Project](https://github.com/y0ngjaenious/IIE2102_IIM_Term_Project)을 Spring Boot, Kafka, NoSQL을 활용하여 튜닝   
 Day4. 2020.09.04 Spring Study Day4.   
-추가적인 학습 필요 - JPA 실습
+추가적인 학습 필요 - JPA 실습    
 [Inflearn 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1) 강의를 통한 Spring Boot + JPA 활용 [1/3]    
 Day5. 2020.09.04 Spring Study Day5.   
 [Inflearn 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1) 강의를 통한 Spring Boot + JPA 활용 [2/3]    
