@@ -9,6 +9,7 @@ import jpabook.jpashop.Domain.item.Item;
 import jpabook.jpashop.Repository.ItemRepository;
 import jpabook.jpashop.Repository.MemberRepository;
 import jpabook.jpashop.Repository.OrderRepository;
+import jpabook.jpashop.Repository.OrderSearch;
 import lombok.RequiredArgsConstructor;
 import org.graalvm.compiler.core.common.type.ArithmeticOpTable;
 import org.springframework.stereotype.Service;
@@ -58,6 +59,10 @@ public class OrderService {
         Order order = orderRepository.findOne(orderId);
         //주문취소
         order.cancel();
+    }
+
+    public List<Order> findOrders(OrderSearch orderSearch){
+        return orderRepository.findAllByString(orderSearch);
     }
 
     //검색
