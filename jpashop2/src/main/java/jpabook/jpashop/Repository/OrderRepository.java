@@ -27,7 +27,7 @@ public class OrderRepository {
 
     //조회는 동적쿼리를 써야해서 일단 쫌 따 함!!//
 
-    public List<Order> findAll(OrderSearch orderSearch){  // JPA Criteria로 작성해보자! 응 안할께 근데 이것도 실무에서 쓰라고 만든게 아닌 거 같
+    ///public List<Order> findAll(OrderSearch orderSearch){  // JPA Criteria로 작성해보자! 응 안할께 근데 이것도 실무에서 쓰라고 만든게 아닌 거 같
 
         /*
         return em.createQuery("select o from Order o join o.member m"+
@@ -39,6 +39,6 @@ public class OrderRepository {
                 .getResultList(); */
 /// Query DSL 로 만들꺼야
         // 아직 안했음
-    }
+    //}
 
 }
